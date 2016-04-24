@@ -1,0 +1,30 @@
+// template.scss
+// variables
+
+$font-size: 16px;
+$background-color1: green;
+$background-color2: red;
+$color: gray;
+
+
+* {
+  font-size: $font-size;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+
+.row {
+  height: 500px;
+  color: white;
+  margin: 0px !important;
+}
+
+.impar {
+  background-color: $background-color1;
+}
+
+.par {
+  background-color: $background-color2;
+}
